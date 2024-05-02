@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SISTEMA DE INVENTARIOS</title>
+<link rel="stylesheet" href="css/dasboar.styles.css">
+<link rel="icon" href="img/candado.png">
+</head>
+<body>
+    <header>
+        <h1>G11 TEAMS</h1>
+    </header>
+
+<div class="menu">
+  <ul>
+    <li><a href="#" onclick="showSection('recepcion')">Recepción</a></li>
+    <li><a href="#" onclick="showSection('entrada')">Entrada</a></li>
+    <li><a href="#" onclick="showSection('almacenamiento')">Almacenamiento</a></li>
+    <li><a href="#" onclick="showSection('trasl')">Traslado</a></li>
+    <li><a href="#" onclick="showSection('preparacion')">Preparación</a></li>
+    <li><a href="#" onclick="showSection('menu_salida')">Menú Salida</a></li>
+    <li><a href="#" onclick="showSection('saldo_stock')">Saldo de Stock</a></li>
+    <li><a href="#" onclick="showSection('contr_stock')">Control de Stock</a></li>
+  </ul>
+</div>
+
+<div class="sections">
+  <section id="recepcion" class="section">
+    <li><a href="#">Agregar Producto</a></li>
+            <li><a  href="#">Actualizar Existencias</a></li>
+            <li><a  href="#">Registrar Proveedor</a></li>
+            <li><a  href="#">Generar Informe de Inventario</a></li>
+        </ul>
+  </section>
+  <section id="entrada" class="section">
+    <li><a href="#">Inicio</a></li>
+        <li><a href="#">Productos</a></li>
+        <li><a href="#">Proveedores</a></li>
+        <li><a href="#">Informes</a></li>
+  </section>
+  <section id="almacenamiento" class="section">
+    <li><a href="#">Inicio</a></li>
+        <li><a href="#">Productos</a></li>
+        <li><a href="#">Ubicaciones</a></li>
+        <li><a href="#">Informes</a></li>
+  </section>
+  <section id="trasl" class="section">
+    <li><a href="#">Inicio</a></li>
+    <li><a href="#">Productos</a></li>
+    <li><a href="#">Cantidad</a></li>
+    <li><a href="#">Origen</a></li>
+    <li><a href="#">Destino</a></li>
+</section>
+  </section>
+  <section id="preparacion" class="section">
+    <li><a href="#">Inicio</a></li>
+    <li><a href="#">Producto</a></li>
+    <li><a href="#">Cantidad a preparar</a></li>
+    <li><a href="#">Ubicacion a preparar</a></li>
+  </section>
+  <section id="menu_salida" class="section">
+    <li><a href="#">Venta de Producto</a></li>
+    <li><a href="#">Transferencia de Producto</a></li>
+    <li><a href="#">Devolución de Producto</a></li>
+    <li><a href="#">Destrucción de Producto</a></li>
+  </section>
+  <section id="saldo_stock" class="section">
+    <li><a href="#">Producto</a></li>
+    <li><a href="#">Cantidad disponible</a></li>
+    <li><a href="#">Ubicaciones</a></li>
+  </section>
+  <section id="contr_stock" class="section">
+    <li><a href="#">Venta de Producto</a></li>
+    <li><a href="#">Cantidad Actual</a></li>
+    <li><a href="#">Cantidad minima</a></li>
+    <li><a href="#">Cantidad maxima</a></li>
+  </section>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
